@@ -42,6 +42,7 @@ footer {
     margin-left: 190px; /* ml190 */ 
     padding: 2em; /* p2em */ 
     text-align: center; /* txa */ 
+}
 header a:hover {
     color: #90c7e3; /* c#90c7e3 */
 }

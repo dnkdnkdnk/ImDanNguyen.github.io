@@ -138,6 +138,14 @@ td {
 tr:nth-last-of-type(odd) {
     background-color: #ffcd6f; /* bc#ffcd6f */
 }
+form {
+    display: flex; /* df */
+    flex-flow: column nowrap; /* flf */
+}
+input,
+textarea {
+    margin-bottom: 0.5em; /* mb.5em */
+}
 
 @media (max-width: 600px) {
     header {
@@ -211,6 +219,16 @@ td:last-of-type {
     section {
         flex: 1; /* flex1 */
         margin-right: 1em; /* mr1em */
+    }
+    form {display: grid;
+    grid-template-columns: 6em 1fr;
+    gap: 1em;
+    max-width: 30em;
+    width: 60%;
+    }
+    input[type="submit"] {
+        grid-column: 2 / 3;
+        width: 9em;
     }
 }
 @media (min-width:1024px) {
